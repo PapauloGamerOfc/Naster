@@ -1,0 +1,64 @@
+{
+    "languages": {
+        "english": "english",
+        "portuguese": "portuguese"
+    },
+    "constants": {
+        "help": "Help",
+        "signature": "Signature",
+        "example": "Example",
+        "examples": "Examples",
+        "all": "all"
+    },
+    "commands": {
+        "help": {
+            "name": "help",
+            "description": "Shows information about one or all the commands",
+            "signature": "(command)",
+            "examples": [
+                {
+                    "description": "I'm lost... what does this bot do?",
+                    "value": ""
+                },
+                {
+                    "description": "What does this command do?",
+                    "value": "ship"
+                }
+            ]
+        },
+        "clear": {
+            "name": "clear",
+            "description": "Clears a specified amount of messages..",
+            "signature": "<amount>",
+            "examples": [
+                {
+                    "description": "You can inform a number.",
+                    "value": "10"
+                },
+                {
+                    "description": "It's possible to clear the entire chat!",
+                    "value": "all"
+                }
+            ]
+        },
+        "ship": {
+            "name": "ship",
+            "description": "Shows the probability that a couple will succeed!",
+            "signature": "<user> <user>",
+            "examples": [
+                {
+                    "description": "You can ship people by ID.",
+                    "value": "766432994206416926 134073775925886976"
+                },
+                {
+                    "description": "You can try to ship yourself with me!!",
+                    "value": "@NasterBot @You"
+                },
+                {
+                    "description": "If they're not in Discord, you may want to ship people by their name!",
+                    "value": "john emma"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.vscode
+bin
+obj
+*.dll
+bot.config
+bot.log
+dump.json
+Makefile
+ship.c
+b*
